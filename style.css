@@ -1,0 +1,53 @@
+body {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: #b0e0e6;
+    color: black;
+}
+
+section {
+    padding: 10px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    width: 97vw;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+    display: inline;
+}
+
+p[class*="M"]::before,
+p[class*="V"]::before, p[class*="N"]::before, p[class*="S"]::before, p[class*="_"]::before,
+p[class*="R"]::before, p[class*="T"]::before,p[class*="C"]::before, p[class*="P"]::before, p[class*="J"]::before{
+    content: ' ';
+}
+
+._SP {
+    display: block;
+}
+
+.NNP {
+    color: red;
+}
+
+.NN {
+    color: yellow;
+}
+
+.JJ {
+    color: purple;
+}
+
+.NFP{
+    display: none;
+}
