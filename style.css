@@ -5,11 +5,14 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background: #b0e0e6;
-    color: black;
+    background-color: rgb(9, 9, 9);
+    color: darkgray;
 }
 
 section {
     padding: 10px;
+    max-width: 900px;
+    display: block;
 }
 
 header {
@@ -38,6 +41,7 @@ p[class*="R"]::before, p[class*="T"]::before,p[class*="C"]::before, p[class*="P"
 
 .NNP {
     color: red;
+    text-transform: capitalize;
 }
 
 .NN {
@@ -45,7 +49,7 @@ p[class*="R"]::before, p[class*="T"]::before,p[class*="C"]::before, p[class*="P"
 }
 
 .JJ {
-    color: purple;
+    color: hotpink;
 }
 
 .NFP{
