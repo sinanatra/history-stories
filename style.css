@@ -1,12 +1,18 @@
 body {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 30px;
+    line-height: 34px;
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
-    background: #b0e0e6;
-    background-color: rgb(9, 9, 9);
-    color: darkgray;
+    font-family: serif;
+    font-weight: 400;
+    letter-spacing: .1px;
+    background: rgb(231, 237, 238);
+    /* background-color: rgb(9, 9, 9); */
+    color: #1f1f1f;
+}
+
+h1,h2,h3,h4,p,b,em{
+    font-weight: 400;
 }
 
 section {
@@ -40,12 +46,12 @@ p[class*="R"]::before, p[class*="T"]::before,p[class*="C"]::before, p[class*="P"
 }
 
 .NNP {
-    color: red;
+    color: darkorchid;
     text-transform: capitalize;
 }
 
 .NN {
-    color: yellow;
+    color: darkorange;
 }
 
 .JJ {
